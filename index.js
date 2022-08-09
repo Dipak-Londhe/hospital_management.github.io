@@ -31,7 +31,7 @@ let str;
         let arraystring = localStorage.getItem('itemJson');
         array = JSON.parse(arraystring);
 
-        array.push([patient_name, patient_address.value, patient_disease, patient_age, patient_dob,
+        array.push([patient_name, patient_address, patient_disease, patient_age, patient_dob,
             patient_mobile_no, patient_email, patient_info]);
         localStorage.setItem('itemJson', JSON.stringify(array));
         console.log("success2");
