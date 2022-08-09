@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSPITAL_MANAGEMENT SYSTEM </title>
+
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section id="deepak">
+
+                <span>
+
+                    <img src="home.jpg" alt="" id="home_image">
+
+
+                </span>
+                <span>
+                    <marquee direction="right" id="running_tag"> WELCOME ! YOU ARE IN HOME PAGE </marquee>
+                </span>
+
+
+
+                <!-- <span>
+                    <a href="">
+                        <button type="submit" class="but" id="appoint">APPOINTMENT</button>
+                </span>
+
+                <span>
+                    <a href="insert.html">
+                        <button type="submit" class="but" id="insert_but">INSERT</button>
+                </span> -->
+
+                <span>
+                    <a href="action.html">
+                        <button type="submit" class="but" id="delete_but">ACTION</button>
+                </span>
+
+                <span>
+                    <a href="view.html">
+                        <button type="submit" class="but" id="view_but">VIEW</button>
+                    </a>
+                </span>
+            </section>
+        </nav>
+
+    </header>
+
+    <div>
+        
+    </div>
+
+
+
+
+    <div id="registration"> REGISTRATION FORM </div>
+    <div id="info">
+    <form class="input_form" >
+        
+        <div>
+
+            <!-- <lable for="p_name" class="textt">
+                Enter the name of the patient :
+                </label> -->
+                <span class="img_span"><img src="name.jpg" alt="" class="user"></span>
+                
+                <input type="text" name="patient_names" id="p_name"  placeholder="PATIENT NAME " required value="" maxlength="44">
+
+                <br>
+
+                <br>
+                <!-- <lable class="textt" for="address">
+                    Enter the address of the patient :
+                </lable> -->
+                <span class="img_span"><img src="location.jpg" alt="" class="user"></span>
+                <input type="text" name="addresses" id="address" placeholder="ADDRESS " required value="" maxlength="44">
+                <br>
+                <br>
+                
+               
+                <!-- <div class="textt">
+                    Enter the DOB of the patient :
+                </div> -->
+                <span class="img_span"><img src="https://cdn0.iconfinder.com/data/icons/calendar-glyph-3/64/Calendar-birth-date-person-512.png" alt="" class="user"></span>
+                <input type="date" name="date" id="dob" placeholder="DOB" value="" maxlength="44">
+                <br>
+
+                <br>
+                <!-- <div class="textt">
+                    Enter the mobile no of the patient :
+                </div> -->
+                <span class="img_span"><img src="mobileno.jpg" alt="" class="user"></span>
+                <input type="number" name="mobile_no" id="mobile_no" placeholder="MOBILE NO" required value="" maxlength="44">
+                <br>
+
+                <br>
+                <!-- <div class="textt">
+                    Enter the email of the patient :
+                </div> -->
+                <span class="img_span"><img src="gmail.jpg" alt="" class="user"></span>
+                <input type="email" name="email" id="email" placeholder="EMAIL" required value="" maxlength="44">
+                <br> 
+               
+                <br>
+
+                 <!-- <div class="textt">
+                    Enter the disease of the patient :
+                </div> -->
+                <span class="img_span"></span>
+                <input type="text" name="diseases" id="disease" placeholder="DISEASE"  value="" maxlength="44">
+                <br>
+                <br>
+                <!-- <div class="textt">
+                    Enter the age of the patient :
+                </div> -->
+                <span class="img_span"></span>
+                <input type="number" name="Ages" id="age" placeholder="AGE" required value="" maxlength="44"> 
+                <br>
+
+                <br>
+
+                <!-- <div class="textt" id="dd">
+                    Enter the other information of the patient :
+                </div> -->
+            
+                <textarea name="textareaaa" id="textarea" cols="59" rows="10" placeholder="OTHER INFORMATION"
+                    value="" maxlength="500"></textarea>
+                <br>
+
+                <span class="img_span"></span>
+                <br>
+                <div class="buttons">
+                    <button type="submit" class="button1" id="submit_button">SUBMIT</button>
+                    <button type="reset" class="button2">RESET</button>
+                </div>
+                <!-- onclick="display_info() -->
+        </div>
+    </form>
+
+</div>
+    <div>
+
+
+    </div>
+    <footer>
+        <div>
+            <br>
+            <h6>THANKS FOR VISITING</h6>
+            <br>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

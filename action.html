@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="action.css">
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <section>
+
+                <span class="span_a">
+                    <a href="index.html">
+                        <img src="dd.jpg" alt="" id="home_back_image">
+                    </a>
+
+                </span>
+                <span>
+                    <marquee direction="X-UA-Compatible" id="running_tag"> WELCOME ! NOW YOU CAN UPDATE AND DELETE A RECORDS</marquee>
+                </span>
+                <span>
+                    <br>
+                    <div>
+
+                    </div>
+                    <div class="same">
+
+                       <input type="search" id="running_tagg" class="search_tag" placeholder="TYPE HERE TO SEARCH">
+                       <button type="submit" id="button" onclick="cancel();"> CANCEL SEARCH </button>
+                       
+                        
+                    </div>
+
+            </section>
+        </nav>
+
+    </header>
+
+ 
+
+    <div class="main" id="tables">
+        <table id="table1" cellspacing="0">
+            
+            <tr class="t_head">
+                <td id="sr_no" style="width:110.87px" >
+                 SR NO
+                </td>
+                <td id="name" style="width:813px">
+                  PATIENT NAME
+                </td>
+                <td id="action" style="width:px">
+                  ACTION
+                </td>
+            </tr>
+
+    </table>
+
+    <table id="table2" cellspacing="0">
+
+           <tr class="row">
+            <td class="srno1">
+
+            </td >
+            <td class="name1">
+
+            </td >
+            <td class="action1">
+                <button type="submit" class="action2 " id="deleted" onclick="delete_record()">
+                     DELETE
+                </button>
+                <button type="submit" class="action2 " id="updated">
+                     UPDATE
+                </button>
+                
+            </td>
+           </tr>
+
+    </table>
+
+   
+
+    </div>
+
+    <script  src="action.js"></script>
+
+</body>
+
+</html>
