@@ -38,6 +38,7 @@ let str;
 
     }
 
+
     alert("details submitted successfull ");
 
     //block
@@ -82,8 +83,7 @@ let str;
     //     </div>`
 
 
-  
-//     });
+    // });
 
 
     // console.log("1s2uccess");
