@@ -38,7 +38,7 @@ let str;
 
     }
 
-      alert(" your datails submitted successfully ");
+//       alert(" your datails submitted successfully ");
 
       value_of_index_page=str;
       
