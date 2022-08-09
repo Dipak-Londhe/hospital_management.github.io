@@ -82,7 +82,8 @@ let str;
     //     </div>`
 
 
-    // });
+  
+//     });
 
 
     // console.log("1s2uccess");
