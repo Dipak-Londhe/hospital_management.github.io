@@ -6,7 +6,7 @@ let str;
     
 
     let patient_name = document.getElementById("p_name").value;
-    let patient_address = document.getElementById("address").value;
+    let patient_address = document.getElementById("addresses").value;
     let patient_disease = document.getElementById("disease").value;
     let patient_age = document.getElementById("age").value;
     let patient_dob = document.getElementById("dob").value;
