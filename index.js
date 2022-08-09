@@ -38,7 +38,56 @@ let str;
 
     }
 
-      alert(" your datails submitted successfully ");
+    alert("details submitted successfull ");
+
+    //block
+
+    //  str="";
+
+    // array.forEach((element, index) => {
+
+    //     str += ` <div class="block" id="dipak">
+    //      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PATIENT NO ${index + 1} DETAILS: </h3>  
+    //      <br>
+    //     <div >&nbsp;&nbsp;&nbsp;&nbsp;NAME :
+    //        ${element[0]} 
+    //     </div>
+    //     <br>
+    //     <div>&nbsp;&nbsp;&nbsp;&nbsp;ADDRESS :
+    //     ${element[1]} 
+    //     </div>
+    //     <br>
+    //     <div>&nbsp;&nbsp;&nbsp;&nbsp;DISEASE :
+    //     ${element[2]} 
+    //     </div>
+    //     <br>
+    //     <div>&nbsp;&nbsp;&nbsp;&nbsp;AGE : 
+    //     ${element[3]} 
+    //     </div>
+    //     <br>
+    //     <div>&nbsp;&nbsp;&nbsp;&nbsp;DATE OF BIRTH :
+    //     ${element[4]} 
+    //     </div>
+    //     <br>
+    //     <div>&nbsp;&nbsp;&nbsp;&nbsp;MOBILE NUMBER :
+    //     ${element[5]} 
+    //     </div>
+    //     <br>
+    //     <div>&nbsp;&nbsp;&nbsp;&nbsp;EMAIL : 
+    //     ${element[6]} 
+    //     </div>
+    //     <br>
+    //     <div>&nbsp;&nbsp;&nbsp;&nbsp;INFO :
+    //     ${element[7]} 
+    //     </div>`
+
+
+    // });
+
+
+    // console.log("1s2uccess");
+    // let html_display = document.getElementById("divi");
+    // html_display.innerHTML = str;
 
       value_of_index_page=str;
       
