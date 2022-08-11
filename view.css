@@ -412,7 +412,7 @@ body{
 
 
 
-@media  (min-width:314px) and (max-width:450px)
+@media  (min-width:256px) and (max-width:5000px)
 {
 
     #home_back_image{
@@ -585,7 +585,7 @@ body{
     
    }
 
-   @media  (min-width:400px) and (max-width:450px)
+   @media  (min-width:400px) and (max-width:500px)
    {
       
 
