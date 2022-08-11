@@ -1,9 +1,9 @@
-
-
 *{
     margin: 0%;
    padding: 0%;
+ 
 }
+
 
 nav{
 
@@ -11,10 +11,8 @@ nav{
    opacity:0.9;
 
    height: 82px;
-   width: 100%;
 
 }
-
 
 #running_tag{
    
@@ -50,7 +48,6 @@ nav{
    color: white;
 }
 
-
 #span_a:hover{
    background-color: black;
    color:white;
@@ -60,7 +57,7 @@ nav{
 body{
 
    
-   background-image: url("display.jpg");
+   background-image: url("images/display.jpg");
    background-attachment:fixed;
  
    background-position: center;
@@ -70,7 +67,6 @@ body{
    background-size:cover;
 
 }
-
 
 
 
@@ -100,7 +96,6 @@ body{
 }
 
 
-
 #button{
    width:25%;
    height:6.1vh;
@@ -110,7 +105,6 @@ body{
    font-size:16px;
    color:black;
 }
-
 
 #button:hover{  
    background-color:black;
@@ -129,16 +123,16 @@ body{
 .main{
     margin-left:8%;
     margin-right:8%;
-    /* border:1px solid black; */
+  
     margin-top:16.8%;
-    /* height:100%; */
-    background-color:whitesmoke;/* black;*/
+
+    background-color:whitesmoke;
     opacity: 0.9;
 }
 
 table{
     width:100%;
-    /* border:1px solid ; */
+  
     height:100%;
     background-color:rgb(255, 255, 255);
    
@@ -148,7 +142,7 @@ table{
 .t_head{
     background-color:black;
     color:white;  
-    /* width: 79%; */
+ 
      margin:0% 19% 3% 0%;
     margin-left:1%;
     height:11vh; 
@@ -157,15 +151,14 @@ table{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 
-    /* position:fixed;  */
+    
 }
-
 
 
 
 .srno1{
 
-   /* height: 4vh; */
+  
    height:48px;
    font-size: 21px;
    border-bottom:2px solid  rgb(224, 225, 227);
@@ -178,7 +171,7 @@ table{
 
 .name1{
 
-   /* height: 4vh; */
+   
    height:48px;
    font-size: 21px;
    border-bottom:2px solid  rgb(224, 225, 227);
@@ -189,7 +182,7 @@ table{
 
 .action1{
 
-   /* height: 4vh; */
+  
    height:48px;
    
    border-bottom:2px solid rgb(224, 225, 227);
@@ -209,11 +202,10 @@ table{
    
 }
 
-
 .deleted{
    background-color: red;
    border-color: red;
-    /* #ff9ab7; */
+
    color: white;
    border-radius: 2px;
    box-shadow: 5px 5px 10px rgb(27, 27, 27);
@@ -229,12 +221,11 @@ table{
 }
    
 
-
 .deleted:hover{  
    background-color:black;
    color:white;
    border-radius: 4px;
-   /* font-size: 18px; */
+ 
    transition: 0.5s;
 }
 
@@ -250,7 +241,7 @@ table{
    background-color:black;
    color:white;
    border-radius: 4px;
-   /* font-size: 18px; */
+
    transition: 0.5s;
 }
 .updated:active{ 
@@ -262,26 +253,22 @@ table{
 } 
 
 
-
 .row:hover{
    background-color:rgb(255, 216, 216);;
    color:black;
 
 }
 
-/* .action2 {
-   background-color: red;
-} */
-.row{
+/* .row{
 
-   width : 100px
+   width : 100px 
    
 
-}
+} */
 .input_tag{
 
    border: none;
-   /* border-bottom: 2px solid black; */
+   
 
    background-color:white;
 
@@ -289,20 +276,241 @@ table{
    text-align: center;
    height:5vh;
    font-size: 1.4rem;
-   /* font-size: 122px; */
+   
 }
-
 
 
 .row1{
    border-color: white;
-   /* background-color: black; */
+   
 }
 
-.flex_box{
 
-   display: flex;
-   flex-direction: row;
-   background-color: black;
+@media  (min-width:960px) and (max-width:1360px)
+{
+   
+   
+
+    .same{
+        margin-left: 244px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    #running_tagg{
+    
+
+        
+        width:438px;
+        height:39px;
+        border-width: 1px;
+    
+        padding-left: 6px;
+        font-size: 16px;
+    
+        border-radius: 1.5px;
+       
+        margin-right:13px;
+        
+    }
+
+    #button{
+        width:230px;
+        height:39px;
+    
+        margin-left:2px;
+        
+        font-size:13px;
+        color:black;
+    }
+
+   
+   
+
 
 }
+
+
+
+@media  (min-width:314px) and (max-width:500px)
+{
+
+   body{
+      width:100%;
+   }
+
+   header{
+      width: 100%;
+   }
+    nav{
+        width:fit-content; 
+         margin-right: 0px;
+    }
+
+    #running_tag{
+      display: none;
+    }
+  
+    
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+     
+        margin-left: 0px;
+    }
+
+    .same{
+      position: relative;
+     
+      width: fit-content;
+      margin-left:9px;
+      margin-top: 12px;
+     
+    }
+
+  #running_tagg{
+
+   /* display: none; */
+  
+     position: absolute;
+     
+      width:304px;
+      height:39px;
+      border-width: 1px;
+  
+      padding-left: 6px;
+      font-size: 10px;
+  
+      border-radius: 1.5px;
+      margin-left:2px;
+     
+      margin-right:13px;
+      
+  }
+
+  #button{
+      width:50px;
+      height:39px;
+  
+      margin-left:318px;
+      
+      font-size:11px;
+      color:white;
+      background-color: red;
+      border: none;
+      border-radius: 3px;
+      font-size: 20px;
+
+  }
+
+  table{
+   width: 380px;
+   /* margin: auto; */
+   margin-left: -19px;
+   /* margin-right: 5px; */
+  }
+
+  #table1 {
+   
+   margin-top:124px;
+   
+   
+   
+}
+
+  #table1 tr{
+   
+     
+     font-size: 13px;
+     height: 8vh;
+  }
+
+  
+.srno1{
+
+  
+   height:37px;
+   font-size: 13px;
+   border-bottom:2px solid  rgb(224, 225, 227);
+   
+   /* text-align: center; */
+  /* background-color: #00FF00; */
+   color: red;
+ 
+
+   width:16px;
+   
+   
+}
+
+.name1{
+
+   /* background-color: #cadeca; */
+
+   /* display: none; */
+   height:27px;
+   font-size: 13px;
+   border-bottom:2px solid  rgb(224, 225, 227);
+   width:140px;
+   text-align: center;
+   width:70px;
+   word-wrap: break-word;
+   
+}
+
+.action1{
+
+   /* background-color: #00FF00; */
+
+   /* display: none; */
+  
+   height: 4vh;
+   
+   /* border-bottom:2px solid rgb(224, 225, 227); */
+   /* width:70.6%; */
+   width:28%;
+   /* padding: auto; */
+   word-wrap: break-word;
+  
+   margin-right: px;
+   
+   
+}
+
+.action2{
+   margin:2px 0px 2px 0px;
+   width: 60px;
+   height:3.8vh;
+   font-size: 10px;
+   margin-bottom: 4px;
+   
+}
+
+.deleted{
+   background-color: red;
+   border-color: red;
+
+   color: white;
+   border-radius: 2px;
+   box-shadow: 5px 5px 10px rgb(27, 27, 27);
+}
+
+.updated{
+   
+   /* background-color: #00FF00;
+   border-color:  #00FF00; */
+   color: white;
+   border-radius: 2px;
+   box-shadow: 5px 5px 10px rgb(27, 27, 27);
+   margin-right:0px;
+
+}
+
+.input_tag{
+
+   font-size: 13px;
+}
+   
+   }
+
