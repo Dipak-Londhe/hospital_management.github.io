@@ -171,13 +171,16 @@ body{
 }
 
 #button{
-    width:277px;
-    height:45px;
+    width:57px;
+    height:44px;
     margin-right:25px;
     margin-left:2px;
+    background-color: red;
+    border: none;
+    border-radius:2px;
+    font-size:24px;
+    color:white;
     
-    font-size:16px;
-    color:black;
 }
 
 
@@ -260,13 +263,16 @@ body{
     }
 
     #button{
-        width:230px;
-        height:39px;
-    
+        width:57px;
+        height:44px;
+        margin-right:25px;
         margin-left:2px;
+        background-color: red;
+        border: none;
+        border-radius:2px;
+        font-size:24px;
+        color:white;
         
-        font-size:13px;
-        color:black;
     }
 
    
@@ -384,13 +390,16 @@ body{
     }
 
     #button{
-        width:230px;
-        height:39px;
-    
+        width:57px;
+        height:44px;
+        margin-right:25px;
         margin-left:2px;
+        background-color: red;
+        border: none;
+        border-radius:2px;
+        font-size:24px;
+        color:white;
         
-        font-size:13px;
-        color:black;
     }
 
    
