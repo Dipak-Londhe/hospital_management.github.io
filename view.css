@@ -412,7 +412,7 @@ body{
 
 
 
-@media  (min-width:314px) and (max-width:500px)
+@media  (min-width:314px) and (max-width:450px)
 {
 
     #home_back_image{
@@ -431,7 +431,7 @@ body{
       width: 100%;
    }
     nav{
-        width:100%; 
+        width:fit-content; 
          margin-right: 0px;
     }
 
@@ -583,4 +583,14 @@ body{
     
    
     
+   }
+
+   @media  (min-width:400px) and (max-width:450px)
+   {
+      
+
+      nav{
+            width: 100%;
+            margin-right: 0px;
+       }
    }
