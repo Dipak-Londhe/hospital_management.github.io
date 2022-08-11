@@ -330,7 +330,9 @@ footer{
         margin-left: 0px;
     }
 
- 
+    #running_tag{
+        display: none;
+       }
     
     
     #home_image{
@@ -508,10 +510,7 @@ footer{
     }
     
    
-    
-   #running_tag{
-    display: none;;
-   }
+  
    
 
 
