@@ -399,8 +399,12 @@ function cancel()
   //  main.style.alignContent="center";
    
    main.style.marginTop="";
+        
   
-  display();
+  
+        document.getElementsByClassName("search_tag")[0].value="";
+  
+        display();
 
 
 }
