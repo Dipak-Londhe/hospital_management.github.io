@@ -353,7 +353,7 @@ table{
 
 
 
-@media  (min-width:314px) and (max-width:450px)
+@media  (min-width:256px) and (max-width:500px)
 {
 
   
@@ -548,7 +548,7 @@ table{
    }
 
 
-   @media  (min-width:400px) and (max-width:450px)
+   @media  (min-width:400px) and (max-width:500px)
    {
       
 
