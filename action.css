@@ -353,7 +353,7 @@ table{
 
 
 
-@media  (min-width:314px) and (max-width:500px)
+@media  (min-width:314px) and (max-width:450px)
 {
 
   
@@ -362,7 +362,7 @@ table{
       width: 100%;
    }
     nav{
-        width:100%; 
+      width:fit-content;
          margin-right: 0px;
     }
 
@@ -379,21 +379,6 @@ table{
         margin-left: 0px;
     }
 
-    
-     #home_back_image{
-
-    
-        width:65px;
-        height:65px;
-    
-        margin-top:3px;
-        margin-left:16px;
-        margin-bottom:97px;
-    
-}
-    
-    
-    
     .same{
       position: relative;
      
@@ -423,6 +408,18 @@ table{
       
   }
 
+   #home_back_image{
+
+    
+        width:65px;
+        height:65px;
+    
+        margin-top:3px;
+        margin-left:16px;
+        margin-bottom:97px;
+    
+}
+
   #button{
       width:50px;
       height:39px;
@@ -440,6 +437,7 @@ table{
 
   table{
    width: 380px;
+
    /* margin: auto; */
    margin-left: -19px;
    /* margin-right: 5px; */
@@ -547,4 +545,15 @@ table{
    font-size: 13px;
 }
    
+   }
+
+
+   @media  (min-width:400px) and (max-width:450px)
+   {
+      
+
+      nav{
+            width: 100%;
+            margin-right: 0px;
+       }
    }
