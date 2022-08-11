@@ -4,19 +4,18 @@
 }
 
 nav{
-    /* background-color:rgba(0,0,0,0.8 ); */
+    
     background-color: rgb(255, 255, 255);
     opacity:0.9;
-    /* margin: 0px 7px 112px 2px; */
+    
     height: 82px;
     width: 100%;
-    /* position:fixed;
-    margin-top:0px; */
+    
 }
 
 
 #running_tag{
-    /* border-color: black; */
+   
     border:solid;
     background-color:white ;
     color: black;
@@ -58,8 +57,8 @@ nav{
 
 body{
 
-    /* https://thumbs.dreamstime.com/b/interior-luxury-hospital-hall-empty-reception-area-interior-luxury-hospital-hall-121480429.jpg */
-    background-image: url("hspp.jpg");
+    
+    background-image: url("images/hspp.jpg");
     background-attachment:fixed;
   
     background-position: center;
@@ -67,7 +66,7 @@ body{
      background-size:contain;
       z-index: -1px;
     background-size:cover;
-      /* opacity: 15; */
+     
 
 
 }
@@ -75,26 +74,23 @@ body{
 .span_a:active{  
     width:45px;
     height:46px;
-    /* background-color: black; */
+    
 }
 
 
 #display_info{
 
-    /* height: 780px; */
+  
      margin:0px 214px 0px 210px;
-    /* align-items: centre; */
+
     background-color:rgb(255, 255, 255);
-    /* opacity:9.0; */
+    
     border-radius: 3px;
     
-    /* border-color: black; */
-    /* border-width: 125px; */
-    /* border-width: bold; */
-    /* border:1px solid black; */
+   
 
     opacity:0.94;
-    /* background-position: fixed; */
+  
 
  }  
 
@@ -107,7 +103,7 @@ body{
  
 .element{
 
-    /* border:1px solid black; */
+  
     padding:13px 0px 8px 0px;
     margin:0px 0px 0px 0px;
     font-size: 19px;
@@ -124,17 +120,6 @@ body{
     padding-bottom:8px;
     border-top:4px solid black
 }
-
-
-
-/* #search_image{
-    
-    width:59px;
-    height:45px;
-     position:fixed; 
-     margin:0px 0px 1127px 599px; 
-    margin:0px 0px 0px 597.8px;
-} */
 
 
 
@@ -167,17 +152,16 @@ body{
 .patient{
 
     margin:300px 214px 0px 210px;
-    /* position: fixed; */
-    /* border: 1px solid white; */
+  
     padding:32px 0px 0px 0px;
-    /* width: 72.39%; */
+  
     height: 7.5vh;
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     background-color:black;
     color:white;
-    /* opacity:0.9; */
+   
     font-size:24px;
     background-position: fixed;
 
@@ -201,7 +185,7 @@ body{
     background-color:black;
     color:white;
     border-radius: 2px;
-    /* font-size: 18px; */
+   
 }
 #button:active{ 
     font-size: 13px;
@@ -211,8 +195,7 @@ body{
  } 
 
  .textarea{
-    /* width:-moz-fit-content;
-    width: fit-content; */
+    
 
     word-break:break-all;
     padding-right:27px
@@ -225,9 +208,9 @@ body{
     color:black;
     padding-top:2px;
     font-size:26px;
-    /* border-top: 2px solid white ; */
+    
     border: 12px solid whitesmoke ;
-    /* text-align: center; */
+   
     border-top:none;
     opacity:1;
 }
@@ -235,14 +218,364 @@ body{
 .name{
     height:4vh;
     background-color:#B3E8FF;
-     /* rgb(254, 155, 172); */
+  
     color:black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:25px;
    
     padding:4px 0px 0px 444px;
     border: 12px solid whitesmoke ;
-    /* text-align: center; */
+   
     border-bottom: none;
     opacity:1;
 }
+
+
+@media  (min-width:960px) and (max-width:1260px)
+{
+   
+   
+
+    .same{
+        margin-left: 244px;
+        margin-top: 120px;
+        margin-bottom: 12px;
+    }
+
+    #running_tagg{
+    
+
+        
+        width:438px;
+        height:39px;
+        border-width: 1px;
+    
+        padding-left: 6px;
+        font-size: 16px;
+    
+        border-radius: 1.5px;
+       
+        margin-right:13px;
+        
+    }
+
+    #button{
+        width:230px;
+        height:39px;
+    
+        margin-left:2px;
+        
+        font-size:13px;
+        color:black;
+    }
+
+   
+   
+}
+
+@media  (min-width:960px) and (max-width:1330px)
+{
+    
+
+
+     #display_info{
+
+  
+        margin:0px 198px 0px 198px;
+   
+       background-color:rgb(255, 255, 255);
+       
+       border-radius: 2.5px;
+   
+       opacity:0.94; 
+   
+    }  
+
+    #h3_tag{
+      
+        margin:0px;
+        font-size: 19px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-bottom:6px;
+        border-top:3px solid black;
+     
+    }
+
+    .name{
+        height:3.5vh;
+        background-color:#B3E8FF;
+      
+        color:black;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:19px;
+       /* text-align:center; */
+        padding:3px 0px 0px 299px;
+        border: 10px solid whitesmoke ;
+       
+        border-bottom: none;
+        opacity:1;
+    }
+
+    #element1{
+
+        padding-left:40px;
+        background:  white;
+        color:black;
+        padding-top:2px;
+        font-size:18px;
+        
+        border: 10px solid whitesmoke ;
+       
+        border-top:none;
+        opacity:1;
+    }
+
+    .patient{
+
+        margin:290px 198px 0px 198px;
+      
+        padding:32px 0px 0px 0px;
+      
+        height: 7vh;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+        background-color:black;
+        color:white;
+       
+        font-size:20px;
+        background-position: fixed;
+    
+        
+    
+    
+    }
+    
+
+}
+
+
+@media  (min-width:960px) and (max-width:1360px)
+{
+   
+   
+
+    .same{
+        margin-left: 244px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    #running_tagg{
+    
+
+        
+        width:438px;
+        height:39px;
+        border-width: 1px;
+    
+        padding-left: 6px;
+        font-size: 16px;
+    
+        border-radius: 1.5px;
+       
+        margin-right:13px;
+        
+    }
+
+    #button{
+        width:230px;
+        height:39px;
+    
+        margin-left:2px;
+        
+        font-size:13px;
+        color:black;
+    }
+
+   
+   
+
+
+
+}
+
+
+
+
+@media  (min-width:314px) and (max-width:500px)
+{
+
+    #home_back_image{
+
+    
+        width:65px;
+        height:65px;
+    
+        margin-top:3px;
+        margin-left:16px;
+        margin-bottom:97px;
+    
+}
+
+   body{
+      width:100%;
+   }
+
+   header{
+      width: 100%;
+   }
+    nav{
+        width:fit-content; 
+         margin-right: 0px;
+    }
+
+    #running_tag{
+      display: none;
+    }
+  
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+     
+        margin-left: 0px;
+    }
+
+    .same{
+        position: relative;
+       
+        /* width: fit-content; */
+        margin-left:9px;
+        margin-right: 0px;
+        margin-top: 12px;
+       
+      }
+  
+    #running_tagg{
+  
+     /* display: none; */
+    
+       position: absolute;
+       
+        width:304px;
+        height:37px;
+        border-width: 1px;
+    
+        padding-left: 6px;
+        font-size: 10px;
+    
+        border-radius: 1.5px;
+        margin-left:2px;
+       
+        margin-right:13px;
+        
+    }
+  
+    #button{
+        width:50px;
+        height:39px;
+    
+        margin-left:316px;
+        
+        
+        font-size:11px;
+        color:white;
+        background-color: red;
+        border: none;
+        border-radius: 3px;
+        font-size: 20px;
+  
+    }
+
+    
+
+
+    
+
+   
+
+
+
+
+
+
+
+
+
+    
+
+    #display_info{
+
+  
+        /* margin:0px 198px 0px 198px; */
+       width:330px;
+       background-color:rgb(255, 255, 255);
+       margin:auto;
+
+       
+       border-radius: 1.5px;
+   
+       opacity:0.94; 
+   
+    }  
+
+    #h3_tag{
+      
+        margin:0px;
+        font-size: 13px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-bottom:4px;
+        border-top:3px solid black;
+     
+    }
+
+    .name{
+        height:2vh;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px;
+        padding: 7px 0px 0px 137px;
+     
+        border: 5px solid whitesmoke ;
+       
+        border-bottom: none;
+        opacity:1;
+    }
+
+    #element1{
+
+        padding-left:20px;
+        background:  white;
+        color:black;
+        padding-top:6px;
+        padding-bottom:4px;
+        font-size:11px;
+        
+        border: 5px solid whitesmoke ;
+       
+        border-top:none;
+        opacity:1;
+    }
+
+    .patient{
+
+        width:330px;
+        
+       margin:auto;
+
+      
+       border-radius: 1.5px;
+       margin-top:180px;
+       font-size:16px;
+       opacity:0.94; 
+       padding-top: auto;
+       padding-bottom:8px;
+       margin-bottom: -2px;
+       height:4vh;
+    
+    
+    }
+    
+   
+    
+   }
