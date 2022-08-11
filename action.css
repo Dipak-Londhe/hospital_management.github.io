@@ -5,6 +5,7 @@
 }
 
 
+
 nav{
 
    background-color: rgb(255, 255, 255);
@@ -12,7 +13,9 @@ nav{
 
    height: 82px;
 
+
 }
+
 
 #running_tag{
    
@@ -48,6 +51,7 @@ nav{
    color: white;
 }
 
+
 #span_a:hover{
    background-color: black;
    color:white;
@@ -67,6 +71,7 @@ body{
    background-size:cover;
 
 }
+
 
 
 
@@ -96,14 +101,18 @@ body{
 }
 
 
+
 #button{
-   width:25%;
-   height:6.1vh;
-   margin-right:35px;
-   margin-left:0px;
+   width:57px;
+   height:44px;
+   margin-right:25px;
+   margin-left:2px;
+   background-color: red;
+   border: none;
+   border-radius:2px;
+   font-size:24px;
+   color:white;
    
-   font-size:16px;
-   color:black;
 }
 
 #button:hover{  
@@ -156,6 +165,7 @@ table{
 
 
 
+
 .srno1{
 
   
@@ -202,6 +212,7 @@ table{
    
 }
 
+
 .deleted{
    background-color: red;
    border-color: red;
@@ -220,6 +231,7 @@ table{
 
 }
    
+
 
 .deleted:hover{  
    background-color:black;
@@ -253,11 +265,13 @@ table{
 } 
 
 
+
 .row:hover{
    background-color:rgb(255, 216, 216);;
    color:black;
 
 }
+
 
 /* .row{
 
@@ -280,10 +294,12 @@ table{
 }
 
 
+
 .row1{
    border-color: white;
    
 }
+
 
 
 @media  (min-width:960px) and (max-width:1360px)
@@ -315,20 +331,25 @@ table{
     }
 
     #button{
-        width:230px;
-        height:39px;
-    
-        margin-left:2px;
-        
-        font-size:13px;
-        color:black;
-    }
+      width:57px;
+      height:44px;
+      margin-right:25px;
+      margin-left:2px;
+      background-color: red;
+      border: none;
+      border-radius:2px;
+      font-size:24px;
+      color:white;
+      
+  }
 
    
    
+
 
 
 }
+
 
 
 
@@ -405,7 +426,7 @@ table{
   }
 
   table{
-   width: 380px;
+   width: 340px;
    /* margin: auto; */
    margin-left: -19px;
    /* margin-right: 5px; */
@@ -487,6 +508,7 @@ table{
    
 }
 
+
 .deleted{
    background-color: red;
    border-color: red;
@@ -513,4 +535,3 @@ table{
 }
    
    }
-
