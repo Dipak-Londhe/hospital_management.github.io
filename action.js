@@ -85,8 +85,7 @@ search.addEventListener("keypress",function search_Info(){
           
           }
           else{
-            // console.log(search2.innerHTML);
-            // name2.style.innerHTML=null;
+       
             name2.style.display="none";
           }
         
@@ -98,7 +97,7 @@ search.addEventListener("keypress",function search_Info(){
               console.log("hioii")
          }
           
-      //     }
+      
 
 
 
@@ -133,7 +132,7 @@ let name1= document.getElementById("table2");
 
 }
 
-// document.getElementBy
+
 
 
 function delete_record(delete_index)
@@ -141,7 +140,7 @@ function delete_record(delete_index)
  
        let arraystring2 = localStorage.getItem('itemJson');
         let array2 = JSON.parse(arraystring2);
-        // console.log(array2);
+       
 
         let name1= document.getElementById("table2");
 
@@ -165,13 +164,14 @@ function update_record(update_index)
 
   let navbar=document.getElementsByClassName("same")[0];
   
+  
   navbar.style.display="none";
 
   let table1= document.getElementById("table1");
  table1.style.display="none";
 
  let main=document.getElementById("tables");
-//  main.style.alignContent="center";
+
  
  main.style.marginTop="6%";
 
@@ -183,7 +183,6 @@ function update_record(update_index)
 
   let name3=name2.getElementsByTagName("td")[1];
 
-  console.log(array[update_index]);
 
   
 
@@ -224,6 +223,7 @@ function update_record(update_index)
     </td>
     <td class="name1">
         <input type="text" class="input_tag" required value="${array[update_index][1]}">
+        
    
         </td>
    
@@ -396,15 +396,12 @@ function cancel()
   table1.style.display="";
 
   let main=document.getElementById("tables");
-  //  main.style.alignContent="center";
+  
    
    main.style.marginTop="";
-        
+   document.getElementsByClassName("search_tag")[0].value="";
   
-  
-        document.getElementsByClassName("search_tag")[0].value="";
-  
-        display();
+  display();
 
 
 }
@@ -412,7 +409,6 @@ function cancel()
 function clear_text()
 {
   let inner_info;
-  console.log("hi");
 
   for(let i=0;i<8;i++)
   {
@@ -447,7 +443,7 @@ function done(index)
      localStorage.setItem('itemJson',JSON.stringify(array));
      cancel();
 
-    //  display();
+
 
 
 }
