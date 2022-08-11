@@ -356,15 +356,13 @@ table{
 @media  (min-width:314px) and (max-width:500px)
 {
 
-   body{
-      width:100%;
-   }
+  
 
    header{
       width: 100%;
    }
     nav{
-        width:fit-content; 
+        width:100%; 
          margin-right: 0px;
     }
 
